@@ -15,6 +15,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "child-process-promise": "^1.1.0",
     "consistent-env": "^1.0.0"
   },
   "devDependencies": {
