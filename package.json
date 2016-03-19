@@ -1,7 +1,7 @@
 {
   "name": "build-stack",
   "main": "./lib/build-stack",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Build stack packages in Atom with https://atom.io/packages/build",
   "license": "MIT",
   "keywords": [
@@ -13,7 +13,6 @@
     "atom-workspace": "build-stack:toggle"
   },
   "repository": "https://github.com/robrix/build-stack",
-  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
