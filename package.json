@@ -1,0 +1,36 @@
+{
+  "name": "build-stack",
+  "main": "./lib/build-stack",
+  "version": "0.0.0",
+  "description": "Build stack packages in Atom with https://atom.io/packages/build",
+  "license": "MIT",
+  "keywords": [
+    "build",
+    "haskell",
+    "stack"
+  ],
+  "activationCommands": {
+    "atom-workspace": "build-stack:toggle"
+  },
+  "repository": "https://github.com/robrix/build-stack",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "consistent-env": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.10.1",
+    "eslint-config-atom-build": "^1.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Build stack packages in Atom with https://atom.io/packages/build",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  }
+}
