@@ -10,9 +10,6 @@
     "haskell",
     "stack"
   ],
-  "activationCommands": {
-    "atom-workspace": "build-stack:toggle"
-  },
   "repository": "https://github.com/robrix/build-stack",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
