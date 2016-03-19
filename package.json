@@ -1,6 +1,6 @@
 {
   "name": "build-stack",
-  "main": "./lib/build-stack.js",
+  "main": "lib/build-stack.js",
   "version": "0.1.0",
   "description": "Build stack packages in Atom with https://atom.io/packages/build",
   "license": "MIT",
